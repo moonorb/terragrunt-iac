@@ -20,8 +20,8 @@ Generate a Personal Github Token if you don't already have one.
 
 3. Update the `bucket` parameter in the root `terragrunt.hcl` [`server/terragrunt.hcl`](/server/terragrunt.hcl)  with a unique name. 
 
-4. Update the `account_name` and `aws_account_id` parameters in [`non-prod/account.hcl`](/non-prod/account.hcl) and
-   [`prod/account.hcl`](/prod/account.hcl) with the names and IDs of accounts.
+4. Update the `account_name` and `aws_account_id` parameters in [`server/non-prod/account.hcl`](/server//non-prod/account.hcl) and
+   [`server/prod/account.hcl`](/server//prod/account.hcl) with the names and IDs of accounts.
 
 
 
