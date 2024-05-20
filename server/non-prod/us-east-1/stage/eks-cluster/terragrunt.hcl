@@ -40,6 +40,9 @@ inputs = {
   cluster_version  = "1.29"
   vpc_id     = dependency.vpc.outputs.vpc_id
   subnet_ids = dependency.vpc.outputs.private_subnets
+  aws_efs_csi_driver_version = "2.5.4"
+
+
 
   managed_node_groups = {
   

@@ -35,7 +35,7 @@ remote_state {
   backend = "s3"
   config = {
     encrypt        = true
-    bucket          = "${get_env("TG_BUCKET_PREFIX", "")}terraformbucket-sdf124sfc-moonorb-q3"
+    bucket          = "${get_env("TG_BUCKET_PREFIX", "")}terraformbucket-sdf1224sfc-moonorb-q3"
     key            = "${path_relative_to_include()}/${local.state_bucket_key_suffix}terraform.tfstate"
     region         = local.aws_region
     dynamodb_table = "terraform-locks"

@@ -1,6 +1,6 @@
-terraform {
-  source = "../../../../../../terraform-iac/modules//sg-group"
-}
+#terraform {
+#  source = "../../../../../../terraform-iac/modules//sg-group"
+#}
 
 dependency "vpc" {
   config_path = "../vpc"
