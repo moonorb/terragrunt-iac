@@ -1,7 +1,3 @@
-terraform {
-  source = "../../../../../../terraform-iac/modules//vpc"
-}
-
 include "root" {
   path = find_in_parent_folders()
 }

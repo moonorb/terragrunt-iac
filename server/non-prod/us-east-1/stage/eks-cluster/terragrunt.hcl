@@ -1,8 +1,3 @@
-#terraform {
-#  source = "../../../../../../terraform-iac/modules//eks-cluster"
-#}
-
-
 dependency "vpc" {
   config_path = "../vpc"
   #skip_outputs = true
